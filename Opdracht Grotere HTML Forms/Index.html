@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Favorite Recipes Form</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<header>
+    <H1> Favorite Recipes Form</H1>
+</header>
+
+<body>
+    <div class="Content">
+        <form class="my-form" method="Post" data-netlify="true">
+
+            <label>Name: </label>
+            <input type="text" name="name"><br><br>
+
+            <label>Email: </label>
+            <input type="text" name="email"><br><br>
+
+            <label>Telephone: </label>
+            <input type="tel" name="Telephone"><br><br>
+
+            <label for="quantity">Age:</label>
+            <input type="number" id="Age" name="Age" min="1" max="99"><br><br>
+
+            <label>Date of Birth </label>
+            <input type="date" name="Birth"><br><br>
+
+            Please select your gender:
+              <input type="radio" id="female" name="gender">
+              <label for="gender">Female</label>
+              <input type="radio" id="male" name="gender">
+              <label for="gender">Male</label><br><br>
+
+            Please select your favourite cousine:
+            <input type="checkbox" id="Favorite Cuisine1" name="Favorite Cuisine1" value="French">
+            <label for="Favorite Cuisine1"> I Like French Cuisine</label>
+            <input type="checkbox" id="Favorite Cuisine2" name="Favorite Cuisine2" value="Italian">
+            <label for="Favorite Cuisine2"> I Like Italian Cuisine</label>
+            <input type="checkbox" id="Favorite Cuisine3" name="Favorite Cuisine3" value="Spanish">
+            <label for="Favorite Cuisine3"> I Like Spanish Cuisine</label>
+            <input type="checkbox" id="Favorite Cuisine4" name="Favorite Cuisine4" value="Arabic">
+            <label for="Favorite Cuisine4"> I Like Arabic Cuisine</label><br><br>
+
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#333"><br><br>
+
+            <label>Biography </label>
+            <textarea name="message"></textarea><br><br>
+
+            <label for="myfile">Select files:</label>
+            <input type="file" id="myfile" name="myfile" multiple><br><br>
+
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage"><br><br>
+
+            <input type="reset"><br><br>
+
+            <input class="button" type="submit" value="submit" name=" ">
+        </form>
+    </div>
+</body>
